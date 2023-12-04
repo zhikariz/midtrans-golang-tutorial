@@ -44,6 +44,9 @@ func main() {
 	if err != nil {
 		fmt.Println("Error starting server:", err)
 	}
+	// HOW TO RUN SERVEO BUDAYAKAN MEMBACA
+	// ssh -R 80:localhost:8080 serveo.net
+	// TAKON ANTEMI
 }
 
 func handleWebhook(c echo.Context) error {
